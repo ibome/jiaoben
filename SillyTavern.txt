@@ -1,4 +1,3 @@
-// 先定义变量覆盖原数组
 window.__originalBlockedDomains = null;
 Object.defineProperty(window, 'je', {
     get: function() { return []; },
